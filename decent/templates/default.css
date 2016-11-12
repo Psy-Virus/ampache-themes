@@ -54,19 +54,6 @@ div.box-inside {
     min-height: 190px;
 }
 
-div#webplayer {
-    
-}
-
-div.jp-area {
-    background: rgba(0,0,0,0.05);
-    margin-left: 175px;
-}
-
-tr.even {
-    
-}
-
 html {
     font-size: 100%;
     -ms-text-size-adjust: 100%;
@@ -111,6 +98,21 @@ a {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+#tabs li a {
+    color: #000;
+    background-color: rgba(0,0,0,0.05);
+}
+
+#tabs li a:hover {
+    color:#000;
+    background-color: rgba(0,119,255,0.05);
+}
+
+#tabs_container ul#tabs {
+    background-color: rgba(0,0,0,0.05);
+    display: block;
 }
 
 h3 {
@@ -1805,4 +1807,11 @@ a.option-list:hover {
     text-decoration: none;
     min-width: 100px;
     background-color: rgba(0,0,0,0.05);
+}
+
+div#webplayer {
+    color: #fff;
+    background: rgba(0,0,0,0.75);
+    margin-left: 195px;
+
 }
